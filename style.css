@@ -47,3 +47,35 @@ body {
     width: 100%;
 
 }
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 610px;
+    margin-top: 10%;
+    justify-content: center;
+}
+.image-2 {
+    width: 40%;
+    height: 600px;
+}
+.image-1, .image-2 {
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.image-1 {
+    width: 60%;
+    height: 600px;
+}
+.image-1 {
+    background-image: url('images/meat1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.image-2 {
+    background-image: url('images/meat2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
